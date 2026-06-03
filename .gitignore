@@ -1,0 +1,21 @@
+# dependencies / build
+node_modules/
+.next/
+out/
+dist/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/
+
+# misc
+*.log
+*.tsbuildinfo
+.DS_Store
