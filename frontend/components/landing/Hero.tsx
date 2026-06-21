@@ -5,9 +5,6 @@ import { motion } from "framer-motion";
 import { ShieldCheck, ArrowRight } from "lucide-react";
 import { CityBackdrop } from "./CityBackdrop";
 
-const EXPLORER = process.env.NEXT_PUBLIC_EXPLORER_URL ?? "https://explorer.ritualfoundation.org";
-const VAULT = process.env.NEXT_PUBLIC_VAULT_ADDRESS ?? "";
-
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
@@ -65,22 +62,18 @@ export function Hero() {
           className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center"
         >
           <Link
-            href="/app"
+            href="/vault"
             className="group inline-flex items-center justify-center gap-2 rounded-lg border border-ritual-green bg-ritual-green/10 px-6 py-3.5 text-sm font-semibold text-ritual-green transition-all hover:bg-ritual-green/20 hover:shadow-glow-green"
           >
-            Launch the dashboard
+            Deploy your vault
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
-          {VAULT && (
-            <a
-              href={`${EXPLORER}/address/${VAULT}`}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 px-6 py-3.5 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-500 hover:text-gray-100"
-            >
-              View the live vault
-            </a>
-          )}
+          <Link
+            href="/app"
+            className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-700 px-6 py-3.5 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-500 hover:text-gray-100"
+          >
+            View the live vault
+          </Link>
         </motion.div>
 
         {/* mini proof strip */}
