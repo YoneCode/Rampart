@@ -22,7 +22,7 @@ An attested, on-chain **policy firewall** that sits between an autonomous agent'
 ![Privy](https://img.shields.io/badge/wallet-Privy-FF1DCE?style=flat-square&labelColor=000000)
 ![Three.js](https://img.shields.io/badge/3D-three.js_%2F_R3F-BFFF00?style=flat-square&labelColor=000000)
 
-[**Live dApp**](https://ritual-rampart.pages.dev/) · [Explorer](https://explorer.ritualfoundation.org) · [X](https://x.com/YoneCode)
+[**Live dApp**](https://github.com/YoneCode/Rampart) · [Explorer](https://explorer.ritualfoundation.org) · [X](https://x.com/YoneCode)
 
 </div>
 
@@ -96,6 +96,13 @@ Rampart is only possible on Ritual because it natively provides, in one shared s
 | RampartSentinel | [`0xB402fc383adAe68eb0BC4a3AefE337BEE2089C87`](https://explorer.ritualfoundation.org/address/0xB402fc383adAe68eb0BC4a3AefE337BEE2089C87) |
 | AgentRegistry | [`0x3BC02899123953E562f57Ee7f9D2CC1ED53Ef6d2`](https://explorer.ritualfoundation.org/address/0x3BC02899123953E562f57Ee7f9D2CC1ED53Ef6d2) |
 | AuditAnchor | [`0x9422817DC2E84bd91dD3715DDd7d466F2977D7a3`](https://explorer.ritualfoundation.org/address/0x9422817DC2E84bd91dD3715DDd7d466F2977D7a3) |
+| RampartVaultFactory | [`0xF705cD232218A100FDD7299Be64306B6BA7fdF2b`](https://explorer.ritualfoundation.org/address/0xF705cD232218A100FDD7299Be64306B6BA7fdF2b) |
+
+## Self-serve
+
+Anyone can deploy their **own** firewall vault in one transaction via the factory — set your policy
+(caps, allowlists, slippage, drawdown), and you become the owner. Your keeper/agent then proposes
+actions that your vault gates on-chain. Deploy + manage from the `/vault` console in the dApp.
 
 ## Proof on-chain
 

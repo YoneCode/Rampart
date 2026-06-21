@@ -28,6 +28,12 @@ export function AppHeader() {
           <Link href="/" className="hidden text-xs text-gray-500 hover:text-gray-300 sm:block">
             ← Back to site
           </Link>
+          <Link href="/app" className="hidden text-xs text-gray-400 hover:text-ritual-green sm:block">
+            Live vault
+          </Link>
+          <Link href="/vault" className="hidden text-xs text-gray-400 hover:text-ritual-green sm:block">
+            Deploy a vault
+          </Link>
         </div>
 
         <div className="flex items-center gap-3">

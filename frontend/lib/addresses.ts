@@ -10,6 +10,7 @@ export const addresses = {
   sentinel: (process.env.NEXT_PUBLIC_SENTINEL_ADDRESS ?? "0xB402fc383adAe68eb0BC4a3AefE337BEE2089C87") as Address,
   registry: (process.env.NEXT_PUBLIC_REGISTRY_ADDRESS ?? "0x3BC02899123953E562f57Ee7f9D2CC1ED53Ef6d2") as Address,
   audit: (process.env.NEXT_PUBLIC_AUDIT_ADDRESS ?? "0x9422817DC2E84bd91dD3715DDd7d466F2977D7a3") as Address,
+  factory: (process.env.NEXT_PUBLIC_FACTORY_ADDRESS ?? "0xF705cD232218A100FDD7299Be64306B6BA7fdF2b") as Address,
 } as const;
 
 export const isDeployed = (a: Address) => a !== ZERO;
