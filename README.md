@@ -103,6 +103,7 @@ Real transactions — open them on the explorer:
 
 | Event | Transaction |
 |---|---|
+| **LLM advisory says ALLOW → firewall overrides to DENY** (defense-in-depth, live) | [`0x5061c967…`](https://explorer.ritualfoundation.org/tx/0x5061c96751ac60775651f1b3692ea68d917e1b499ba2c1217fd1ea590ca8a8a3) |
 | Firewall blocks an **unauthorized destination** | [`0x3e5e2f6c…`](https://explorer.ritualfoundation.org/tx/0x3e5e2f6cac11d19bd7fa06d611ba6d1bd190214549a5d48c3c4f89551632be7c) |
 | Firewall blocks an **oversized transaction** | [`0xd77cd0c9…`](https://explorer.ritualfoundation.org/tx/0xd77cd0c9be5ed4da644ceb4504ec2202258c0803b2a4e2ffb8222b9f7b4f909c) |
 | Circuit breaker **trips on drawdown** | [`0x04b200e2…`](https://explorer.ritualfoundation.org/tx/0x04b200e2674bb0e28f7d591a257e2ef40c34bc8e6bcbaf46ef5e4d7bac3690cd) |
