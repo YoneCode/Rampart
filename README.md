@@ -22,7 +22,7 @@ An attested, on-chain **policy firewall** that sits between an autonomous agent'
 ![Privy](https://img.shields.io/badge/wallet-Privy-FF1DCE?style=flat-square&labelColor=000000)
 ![Three.js](https://img.shields.io/badge/3D-three.js_%2F_R3F-BFFF00?style=flat-square&labelColor=000000)
 
-[**Live dApp**](https://github.com/YoneCode/Rampart) · [Explorer](https://explorer.ritualfoundation.org) · [X](https://x.com/YoneCode)
+[**Live dApp**](https://ritual-rampart.pages.dev/) · [Explorer](https://explorer.ritualfoundation.org) · [X](https://x.com/YoneCode)
 
 </div>
 
